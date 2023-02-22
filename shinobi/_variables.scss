@@ -4,8 +4,16 @@ $secondary: rgb(88, 142, 75);
 $error: rgb(212, 7, 7);
 $info: rgb(228, 228, 26);
 
+// spacing
 $base-padding: 1rem;
 $base-margin: 1rem;
 
+// borders
 $base-border-thickness: 3px;
 $base-border-radius: 10px;
+
+// box shadows
+$base-box-shadows: 1px 3px 5px #000;
+
+// font sizes
+$base-font-size: 1rem;

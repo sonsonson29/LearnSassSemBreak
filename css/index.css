@@ -1,7 +1,7 @@
 /* reset styles */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
-  color: pink;
+  color: inherit;
   margin: 0;
 }
 
@@ -28,9 +28,23 @@ img {
 }
 
 h1 {
-  color: pink;
+  color: rgb(77, 75, 208);
 }
 
-a {
-  color: rgb(88, 142, 75);
+.card {
+  display: block;
+  padding: 1rem;
+  border: 3px solid #ddd;
+  box-shadow: 1px 3px 5px #000;
+}
+.card .card-title {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+  font-weight: bold;
+}
+.card .card-body {
+  font-size: 1rem;
+}
+.card .card-body a {
+  text-decoration: underline;
 }
