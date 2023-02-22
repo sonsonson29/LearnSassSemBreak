@@ -4,16 +4,47 @@ $secondary: rgb(88, 142, 75);
 $error: rgb(212, 7, 7);
 $info: rgb(228, 228, 26);
 
+    //use of maps, key value pairs
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "error": $error,
+    "info": $info,
+    "blue": #1919e6,
+    "red": #fc0707,
+    "orange": #ef7706,
+    "green": #038a13,
+    "purple": #8c249c,
+    "black": #000000,
+    "white": #ffffff,
+);
+
+// @debug map-get($colors, "purple");
+// @debug map-has-key($colors , "primary");
+// @debug map-remove($colors, "red" );
+// @debug map-merge($colors, ("pink": rgb(213, 54, 155)));
+
+.test-btn{
+    background-color: map-get($colors, "green");
+}
+
 // spacing
 $base-padding: 1rem;
 $base-margin: 1rem;
 
 // borders
 $base-border-thickness: 3px;
-$base-border-radius: 10px;
+$base-border-radius: 20px;
 
 // box shadows
 $base-box-shadows: 1px 3px 5px #000;
 
 // font sizes
 $base-font-size: 1rem;
+
+// adding math 
+$base-size-sm: $base-font-size * 0.75;
+$base-size-lg: $base-font-size * 1.5;
+$base-size-xl: $base-font-size * 2;
+$base-size-xxl: $base-font-size * 3;
+
