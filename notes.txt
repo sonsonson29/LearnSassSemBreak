@@ -1,0 +1,11 @@
+lesson 9 
+- dito eh gumamit tayo ng mga loop functions like 
+each loop and for loops 
+- then we made shades of light and dark colors from our 
+colors map, kinuhan naten ung mga kulay then nag mix tayo noh 
+- lastly eh nag try tayo ioutput un sa atig webpage
+
+lesson 10 
+- conditionals 
+
+
